@@ -1,36 +1,63 @@
-
 <html>
+
 <head>
   <title>Malvika's Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/x-icon" href="/images/favicon2.ico" sizes="32x32">
+  <link rel="icon" type="image/x-icon" href="/images/favicon/favicon2.ico" sizes="32x32">
   <link rel="stylesheet" type="text/css" href="style.css" />
-	<script src="script.js"></script>
+  <script src="script.js"></script>
 </head>
+
 <body>
-  <header>
-    <h1>Hi!, I'm Malvika.</h1>
+  <header class="header">
+    <h1 class="mainHeader">Hi!, I'm Malvika.</h1>
     <nav class="main-menu">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact</a>
+      <a href="#home">Home</a></li>
+      <a href="#about">About</a></li>
+      <a href="#projects">Projects</a></li>
+      <a href="#contact">Contact</a></li>
     </nav>
   </header>
   <div class="main-content">
-    <h1>Welcome!</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam lorem quis orci tincidunt, eu malesuada magna consectetur. Nullam nec lacus quis eros lacinia congue id a neque. Suspendisse potenti. Proin in congue ex. Quisque tincidunt vitae mi vitae fringilla. Ut at leo vel eros volutpat finibus. Nam non tincidunt leo.</p>
-    <img src="images/Image.jpeg" alt="Portfolio" height="400px" width="300px">
-    <p>Integer auctor et turpis et volutpat. Cras id mauris viverra, porttitor elit vel, condimentum turpis. Nullam vel erat vel purus gravida suscipit vel vel velit. Suspendisse vel libero velit. Sed eget nisi eget eros elementum malesuada. Cras et lectus ac odio finibus condimentum.</p>
-    <form class="contact-form">
-      <input type="text" placeholder="Name">
-      <input type="email" placeholder="Email">
-      <textarea placeholder="Message"></textarea>
-      <input type="submit" value="Submit">
-    </form>
+    <h1>Welcome All!</h1>
+    <p>Welcome to my portfolio website! Here you'll find an overview of my work experience and a few of my projects. I'm
+      excited to share my journey and accomplishments with you, and I look forward to hearing your feedback. Thank you
+      for visiting!
+    <section id="about">
+      <div class="section-container">
+        <h1>About</h1>
+        <div>Hi, I am Malvika Ravichandran</div>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="section-container">
+        <h1>Projects</h1>
+        <div class="project-container">
+          <div class="project-overview-container"> 123</div>
+          <div class="project-overview-container"> 123</div>
+          <div class="project-overview-container"> 123</div>
+          <div class="project-overview-container"> 123</div>
+          <div class="project-overview-container"> 123</div>
+        
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="section-container">
+        <h1>Get in Touch!</h1>
+        <form class="contact-form">
+          <input type="text" placeholder="Name *" required>
+          <input type="email" placeholder="Email *" required>
+          <textarea placeholder="Send me a message"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </section>
+
   </div>
   <footer>
     &copy; Malvika Ravichandran 2023
   </footer>
 </body>
+
 </html>
